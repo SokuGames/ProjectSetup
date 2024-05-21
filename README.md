@@ -25,17 +25,3 @@
     ```sh
     npm install
     ```
-
-## GitHub Repository Setup
-1. Create a new repository on GitHub.
-2. Clone the repository to your local machine.
-3. Copy your project files into the cloned repository directory.
-4. Commit your changes:
-    ```sh
-    git add .
-    git commit -m "Initial commit"
-    ```
-5. Push to GitHub:
-    ```sh
-    git push origin main
-    ```
