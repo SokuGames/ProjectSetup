@@ -19,7 +19,7 @@
     ```
 2. Navigate into the project directory:
     ```sh
-    cd my-project
+    cd ProjectSetup
     ```
 3. (Optional) If using npm for dependencies, run:
     ```sh
