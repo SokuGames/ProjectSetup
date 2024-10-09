@@ -38,4 +38,6 @@
     `server/` folder.
     `package.json` file.
     ```
-3. Delete CSS and JavaScript bootstrap `<link>` and `<script>` tag in HTML if not using.
+3. Delete CSS and JavaScript bootstrap `<link>` and `<script>` tag in the HTML if not using.
+
+4. Add Author in the `<meta>` tag in the HTML
