@@ -1,16 +1,17 @@
 # Project
 
 ## File Structure
-- `src/`: Contains all the front-end source files.
+- `assets/`: Contains all the front-end source files besides `index.html`.
   - `css/`: CSS files.
-  - `js/`: JavaScript files.
   - `img/`: Image assets.
-  - `index.html`, `about.html`, `contact.html`: HTML files.
+  - `js/`: JavaScript files.
+  - `about.html`, `contact.html`, etc: HTML files.
 - `lib/`: External libraries.
 - `server/`: Back-end related files.
 - `.gitignore`: Files and directories to be ignored by Git.
-- `README.md`: Project documentation.
+- `index.html`: HTML index file.
 - `package.json`: Project dependencies.
+- `README.md`: Project documentation.
 
 ## Setup
 1. Clone the repository:
@@ -25,3 +26,16 @@
     ```sh
     npm install
     ```
+
+## Folder Setup
+1. Delete:
+    ```sh
+    `README.md` file.
+    ```
+2. Delete if not using:
+    ```sh
+    `lib/` folder.
+    `server/` folder.
+    `package.json` file.
+    ```
+3. Delete CSS and JavaScript bootstrap `<link>` and `<script>` tag in HTML if not using.
